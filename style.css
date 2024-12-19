@@ -1,0 +1,22 @@
+*,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#loading {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 600px;
+  width: 260px;
+}
+
+.card img {
+  height: 300px;
+  align-items: center;
+}
