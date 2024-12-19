@@ -21,10 +21,10 @@ const getProduct = async function (productId) {
 const displayProduct = (product) => {
   document.getElementById(
     "product-container"
-  ).innerHTML = ` <div class="card mb-3 p-5">
+  ).innerHTML = ` <div class="card mb-3 p-3">
                   <div class="row g-0">
-                    <div class="col-md-4 d-flex justify-conent-end">
-                      <img src="${product.image}" class="img-fluid rounded-start" alt="..." />
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                      <img src="${product.image}" class=" rounded-start justify-content-center align-items-center " alt="..." />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -39,8 +39,7 @@ const displayProduct = (product) => {
                 <button class="btn btn-success">Buy Now</button>
                         <p class="card-text">
                           <small class="text-body-secondary"
-                            >Last updated 3 mins ago</small
-                          >
+                            >Last updated 3 mins ago</small>
                         </p>
                       </div>
                     </div>
